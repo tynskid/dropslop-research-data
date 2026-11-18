@@ -1,0 +1,100 @@
+[
+  {
+    "slug": "ai-search",
+    "title": "AI search cites AI-written pages",
+    "url": "https://dropslop.ai/research/ai-search.html",
+    "built_at": "2026-11-12T01:26:53Z",
+    "files": [
+      "ai-search-deep.csv",
+      "ai-search-deep.json"
+    ]
+  },
+  {
+    "slug": "app-store",
+    "title": "Just over one in three apps launched in 2026 have descriptions written by AI",
+    "url": "https://dropslop.ai/research/app-store.html",
+    "built_at": "2026-11-12T01:32:56Z",
+    "files": [
+      "s10-deep.csv",
+      "s10-deep.json"
+    ]
+  },
+  {
+    "slug": "congress",
+    "title": "About one in seven press releases from Congress are now written by AI",
+    "url": "https://dropslop.ai/research/congress.html",
+    "built_at": "2026-11-12T01:39:53Z",
+    "files": [
+      "s21.csv",
+      "s21.json",
+      "s21-deep.csv",
+      "s21-deep.json"
+    ]
+  },
+  {
+    "slug": "human-holdouts",
+    "title": "The last mostly-human corners are starting to move",
+    "url": "https://dropslop.ai/research/human-holdouts.html",
+    "built_at": "2026-11-12T01:32:56Z",
+    "files": [
+      "holdouts-deep.csv",
+      "holdouts-deep.json",
+      "s11-deep.csv",
+      "s11-deep.json"
+    ]
+  },
+  {
+    "slug": "podcasts",
+    "title": "About one in six podcast episode notes (150+ words) from 2026 are written by AI",
+    "url": "https://dropslop.ai/research/podcasts.html",
+    "built_at": "2026-11-12T01:32:56Z",
+    "files": [
+      "s18-deep.csv",
+      "s18-deep.json"
+    ]
+  },
+  {
+    "slug": "press-releases",
+    "title": "About two in five press releases are now written by AI",
+    "url": "https://dropslop.ai/research/press-releases.html",
+    "built_at": "2026-11-12T01:39:53Z",
+    "files": [
+      "s04.csv",
+      "s04.json",
+      "s04-deep.csv",
+      "s04-deep.json"
+    ]
+  },
+  {
+    "slug": "public-comments",
+    "title": "About one in five public comments to federal agencies are now written by AI",
+    "url": "https://dropslop.ai/research/public-comments.html",
+    "built_at": "2026-11-12T01:39:53Z",
+    "files": [
+      "s15.csv",
+      "s15.json",
+      "s15-deep.csv",
+      "s15-deep.json"
+    ]
+  },
+  {
+    "slug": "self-published-books",
+    "title": "About half of new self-published books now come with an AI-written description",
+    "url": "https://dropslop.ai/research/self-published-books.html",
+    "built_at": "2026-11-12T01:26:53Z",
+    "files": [
+      "s12-deep.csv",
+      "s12-deep.json"
+    ]
+  },
+  {
+    "slug": "slop-index",
+    "title": "The Slop Index: how much of the new web is written by AI",
+    "url": "https://dropslop.ai/research/slop-index.html",
+    "built_at": "2026-11-12T01:26:53Z",
+    "files": [
+      "s01-deep.csv",
+      "s01-deep.json"
+    ]
+  }
+]

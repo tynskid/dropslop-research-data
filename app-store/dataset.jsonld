@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Dataset",
+  "name": "Just over one in three apps launched in 2026 have descriptions written by AI",
+  "description": "How many descriptions of new apps on a major mobile app store are written by AI, by launch year, genre, ratings and length.",
+  "url": "https://dropslop.ai/research/app-store.html",
+  "creator": {
+    "@type": "Organization",
+    "name": "DropSlop",
+    "url": "https://dropslop.ai/"
+  },
+  "isAccessibleForFree": true,
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "distribution": [
+    {
+      "@type": "DataDownload",
+      "encodingFormat": "text/csv",
+      "contentUrl": "https://dropslop.ai/research/data/s10-deep.csv"
+    },
+    {
+      "@type": "DataDownload",
+      "encodingFormat": "application/json",
+      "contentUrl": "https://dropslop.ai/research/data/s10-deep.json"
+    }
+  ],
+  "dateModified": "2026-11-12T01:32:56Z"
+}

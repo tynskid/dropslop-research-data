@@ -1,0 +1,37 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Dataset",
+  "name": "About one in five public comments to federal agencies are now written by AI",
+  "description": "About one in five public comments to federal agencies since ChatGPT are written by AI, mostly standalone comments rather than campaign copies.",
+  "url": "https://dropslop.ai/research/public-comments.html",
+  "creator": {
+    "@type": "Organization",
+    "name": "DropSlop",
+    "url": "https://dropslop.ai/"
+  },
+  "isAccessibleForFree": true,
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "distribution": [
+    {
+      "@type": "DataDownload",
+      "encodingFormat": "text/csv",
+      "contentUrl": "https://dropslop.ai/research/data/s15.csv"
+    },
+    {
+      "@type": "DataDownload",
+      "encodingFormat": "application/json",
+      "contentUrl": "https://dropslop.ai/research/data/s15.json"
+    },
+    {
+      "@type": "DataDownload",
+      "encodingFormat": "text/csv",
+      "contentUrl": "https://dropslop.ai/research/data/s15-deep.csv"
+    },
+    {
+      "@type": "DataDownload",
+      "encodingFormat": "application/json",
+      "contentUrl": "https://dropslop.ai/research/data/s15-deep.json"
+    }
+  ],
+  "dateModified": "2026-11-12T01:39:53Z"
+}

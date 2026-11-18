@@ -1,0 +1,1613 @@
+{
+ "story": "s15",
+ "title": "AI-written public comments to federal agencies",
+ "before": {
+  "texts": 1879,
+  "clusters": 51,
+  "flagged_share": 0.0346
+ },
+ "after": {
+  "texts": 2734,
+  "clusters": 72,
+  "flagged_share": 0.2271,
+  "flagged_lo": 0.1525,
+  "flagged_hi": 0.3161,
+  "corrected": 0.2069,
+  "corrected_lo": 0.1246,
+  "corrected_hi": 0.3039
+ },
+ "clusters_all": 117,
+ "baseline": {
+  "share": 0.0346,
+  "lo": 0.0206,
+  "hi": 0.0553
+ },
+ "catch_rate": {
+  "share": 0.965,
+  "lo": 0.9381,
+  "hi": 0.9861,
+  "n": 200
+ },
+ "drift": {
+  "years": [
+   {
+    "year": "2019",
+    "texts": 479,
+    "flagged_share": 0.0292,
+    "lo": 0.0083,
+    "hi": 0.0667
+   },
+   {
+    "year": "2020",
+    "texts": 472,
+    "flagged_share": 0.0551,
+    "lo": 0.0189,
+    "hi": 0.0909
+   },
+   {
+    "year": "2021",
+    "texts": 573,
+    "flagged_share": 0.0192,
+    "lo": 0.0054,
+    "hi": 0.0494
+   },
+   {
+    "year": "2022",
+    "texts": 337,
+    "flagged_share": 0.0415,
+    "lo": 0.0088,
+    "hi": 0.1074
+   }
+  ],
+  "first": {
+   "year": "2019",
+   "texts": 479,
+   "flagged_share": 0.0292,
+   "lo": 0.0083,
+   "hi": 0.0667
+  },
+  "last": {
+   "year": "2022",
+   "texts": 337,
+   "flagged_share": 0.0415,
+   "lo": 0.0088,
+   "hi": 0.1074
+  },
+  "yardstick_last_year": {
+   "year": "2022",
+   "texts": 337,
+   "baseline": 0.0415,
+   "baseline_lo": 0.0056,
+   "baseline_hi": 0.117,
+   "corrected": 0.201,
+   "corrected_lo": 0.0879,
+   "corrected_hi": 0.3008
+  }
+ },
+ "recent": {
+  "value": "all",
+  "label": "2025–26",
+  "before_texts": 0,
+  "texts": 1759,
+  "clusters": 45,
+  "before_flagged": null,
+  "flagged_share": 0.3206,
+  "flagged_lo": 0.2074,
+  "flagged_hi": 0.4343,
+  "baseline": 0.0346,
+  "baseline_own": false,
+  "corrected": 0.3074,
+  "corrected_raw": 0.3074,
+  "corrected_lo": 0.1887,
+  "corrected_hi": 0.4313,
+  "meets_bar": true,
+  "years": "2025–26",
+  "exploratory": true
+ },
+ "year_pairs": {
+  "rows": [
+   {
+    "value": "2018-19",
+    "label": "2018–19",
+    "before_texts": 497,
+    "texts": 497,
+    "clusters": 14,
+    "before_flagged": 0.0282,
+    "flagged_share": 0.0282,
+    "flagged_lo": 0.0083,
+    "flagged_hi": 0.0631,
+    "baseline": 0.0282,
+    "baseline_own": true,
+    "corrected": 0.0,
+    "corrected_raw": 0.0,
+    "corrected_lo": -0.049,
+    "corrected_hi": 0.041,
+    "meets_bar": true,
+    "after_texts": 0,
+    "era": "before"
+   },
+   {
+    "value": "2020-21",
+    "label": "2020–21",
+    "before_texts": 1045,
+    "texts": 1045,
+    "clusters": 30,
+    "before_flagged": 0.0354,
+    "flagged_share": 0.0354,
+    "flagged_lo": 0.0156,
+    "flagged_hi": 0.0631,
+    "baseline": 0.0354,
+    "baseline_own": true,
+    "corrected": 0.0,
+    "corrected_raw": 0.0,
+    "corrected_lo": -0.0387,
+    "corrected_hi": 0.0347,
+    "meets_bar": true,
+    "after_texts": 0,
+    "era": "before"
+   },
+   {
+    "value": "2022-23",
+    "label": "2022–23",
+    "before_texts": 337,
+    "texts": 956,
+    "clusters": 36,
+    "before_flagged": 0.0415,
+    "flagged_share": 0.0513,
+    "flagged_lo": 0.022,
+    "flagged_hi": 0.0929,
+    "baseline": 0.0346,
+    "baseline_own": false,
+    "corrected": 0.0179,
+    "corrected_raw": 0.0179,
+    "corrected_lo": -0.0231,
+    "corrected_hi": 0.0663,
+    "meets_bar": true,
+    "after_texts": 619,
+    "era": "mixed"
+   },
+   {
+    "value": "2024-25",
+    "label": "2024–25",
+    "before_texts": 0,
+    "texts": 998,
+    "clusters": 32,
+    "before_flagged": null,
+    "flagged_share": 0.1954,
+    "flagged_lo": 0.1031,
+    "flagged_hi": 0.299,
+    "baseline": 0.0346,
+    "baseline_own": false,
+    "corrected": 0.1728,
+    "corrected_raw": 0.1728,
+    "corrected_lo": 0.0708,
+    "corrected_hi": 0.285,
+    "meets_bar": true,
+    "after_texts": 998,
+    "era": "after"
+   },
+   {
+    "value": "2026",
+    "label": "2026",
+    "before_texts": 0,
+    "texts": 1117,
+    "clusters": 29,
+    "before_flagged": null,
+    "flagged_share": 0.35,
+    "flagged_lo": 0.1997,
+    "flagged_hi": 0.5147,
+    "baseline": 0.0346,
+    "baseline_own": false,
+    "corrected": 0.339,
+    "corrected_raw": 0.339,
+    "corrected_lo": 0.1724,
+    "corrected_hi": 0.5253,
+    "meets_bar": true,
+    "after_texts": 1117,
+    "era": "after"
+   }
+  ],
+  "latest": {
+   "value": "2026",
+   "label": "2026",
+   "before_texts": 0,
+   "texts": 1117,
+   "clusters": 29,
+   "before_flagged": null,
+   "flagged_share": 0.35,
+   "flagged_lo": 0.1997,
+   "flagged_hi": 0.5147,
+   "baseline": 0.0346,
+   "baseline_own": false,
+   "corrected": 0.339,
+   "corrected_raw": 0.339,
+   "corrected_lo": 0.1724,
+   "corrected_hi": 0.5253,
+   "meets_bar": true,
+   "after_texts": 1117,
+   "era": "after"
+  },
+  "first_after": {
+   "value": "2024-25",
+   "label": "2024–25",
+   "before_texts": 0,
+   "texts": 998,
+   "clusters": 32,
+   "before_flagged": null,
+   "flagged_share": 0.1954,
+   "flagged_lo": 0.1031,
+   "flagged_hi": 0.299,
+   "baseline": 0.0346,
+   "baseline_own": false,
+   "corrected": 0.1728,
+   "corrected_raw": 0.1728,
+   "corrected_lo": 0.0708,
+   "corrected_hi": 0.285,
+   "meets_bar": true,
+   "after_texts": 998,
+   "era": "after"
+  },
+  "latest_vs_first_after": {
+   "a": "2026",
+   "b": "2024-25",
+   "diff": 0.1662,
+   "diff_lo": -0.032,
+   "diff_hi": 0.3603,
+   "ranges_apart": false,
+   "clear": false
+  }
+ },
+ "topics": {
+  "rows": [
+   {
+    "value": "health and education",
+    "label": "Health and education",
+    "before_texts": 568,
+    "texts": 665,
+    "clusters": 17,
+    "before_flagged": 0.0264,
+    "flagged_share": 0.2707,
+    "flagged_lo": 0.0774,
+    "flagged_hi": 0.528,
+    "baseline": 0.0264,
+    "baseline_own": true,
+    "corrected": 0.2602,
+    "corrected_raw": 0.2602,
+    "corrected_lo": 0.0515,
+    "corrected_hi": 0.5259,
+    "meets_bar": true
+   },
+   {
+    "value": "economy and work",
+    "label": "Economy and work",
+    "before_texts": 532,
+    "texts": 836,
+    "clusters": 25,
+    "before_flagged": 0.0414,
+    "flagged_share": 0.2667,
+    "flagged_lo": 0.1532,
+    "flagged_hi": 0.3849,
+    "baseline": 0.0414,
+    "baseline_own": true,
+    "corrected": 0.244,
+    "corrected_raw": 0.244,
+    "corrected_lo": 0.1121,
+    "corrected_hi": 0.3718,
+    "meets_bar": true
+   },
+   {
+    "value": "environment",
+    "label": "Environment",
+    "before_texts": 400,
+    "texts": 662,
+    "clusters": 15,
+    "before_flagged": 0.015,
+    "flagged_share": 0.0906,
+    "flagged_lo": 0.0228,
+    "flagged_hi": 0.1762,
+    "baseline": 0.015,
+    "baseline_own": true,
+    "corrected": 0.0796,
+    "corrected_raw": 0.0796,
+    "corrected_lo": -0.0043,
+    "corrected_hi": 0.1707,
+    "meets_bar": true
+   }
+  ],
+  "count": 3,
+  "limits": [
+   {
+    "value": "immigration and other",
+    "label": "Immigration and other topics",
+    "before_texts": 379,
+    "texts": 571,
+    "why": "under 400 texts in an era"
+   }
+  ],
+  "diffs": [
+   {
+    "a": "health and education",
+    "b": "economy and work",
+    "diff": 0.0162,
+    "diff_lo": -0.2485,
+    "diff_hi": 0.3097,
+    "ranges_apart": false,
+    "clear": false
+   },
+   {
+    "a": "health and education",
+    "b": "environment",
+    "diff": 0.1806,
+    "diff_lo": -0.0666,
+    "diff_hi": 0.468,
+    "ranges_apart": false,
+    "clear": false
+   },
+   {
+    "a": "economy and work",
+    "b": "environment",
+    "diff": 0.1644,
+    "diff_lo": 0.0053,
+    "diff_hi": 0.3188,
+    "ranges_apart": false,
+    "clear": true
+   }
+  ],
+  "top": {
+   "value": "health and education",
+   "label": "Health and education",
+   "before_texts": 568,
+   "texts": 665,
+   "clusters": 17,
+   "before_flagged": 0.0264,
+   "flagged_share": 0.2707,
+   "flagged_lo": 0.0774,
+   "flagged_hi": 0.528,
+   "baseline": 0.0264,
+   "baseline_own": true,
+   "corrected": 0.2602,
+   "corrected_raw": 0.2602,
+   "corrected_lo": 0.0515,
+   "corrected_hi": 0.5259,
+   "meets_bar": true
+  },
+  "bottom": {
+   "value": "environment",
+   "label": "Environment",
+   "before_texts": 400,
+   "texts": 662,
+   "clusters": 15,
+   "before_flagged": 0.015,
+   "flagged_share": 0.0906,
+   "flagged_lo": 0.0228,
+   "flagged_hi": 0.1762,
+   "baseline": 0.015,
+   "baseline_own": true,
+   "corrected": 0.0796,
+   "corrected_raw": 0.0796,
+   "corrected_lo": -0.0043,
+   "corrected_hi": 0.1707,
+   "meets_bar": true
+  },
+  "top_vs_bottom": {
+   "a": "health and education",
+   "b": "environment",
+   "diff": 0.1806,
+   "diff_lo": -0.0666,
+   "diff_hi": 0.468,
+   "ranges_apart": false,
+   "clear": false
+  },
+  "top_clear": false,
+  "bottom_clear": false
+ },
+ "departments": {
+  "published": 0,
+  "limits": [
+   {
+    "value": "Agriculture",
+    "label": "Agriculture",
+    "before_texts": 132,
+    "texts": 371,
+    "why": "under 400 texts in an era"
+   },
+   {
+    "value": "Other agencies",
+    "label": "Other agencies",
+    "before_texts": 388,
+    "texts": 364,
+    "why": "under 400 texts in an era"
+   },
+   {
+    "value": "Interior",
+    "label": "Interior",
+    "before_texts": 109,
+    "texts": 354,
+    "why": "under 400 texts in an era"
+   },
+   {
+    "value": "Health and Human Services",
+    "label": "Health and Human Services",
+    "before_texts": 265,
+    "texts": 351,
+    "why": "under 400 texts in an era"
+   },
+   {
+    "value": "Homeland Security",
+    "label": "Homeland Security",
+    "before_texts": 115,
+    "texts": 328,
+    "why": "under 400 texts in an era"
+   },
+   {
+    "value": "Labor",
+    "label": "Labor",
+    "before_texts": 189,
+    "texts": 207,
+    "why": "under 400 texts in an era"
+   },
+   {
+    "value": "Transportation",
+    "label": "Transportation",
+    "before_texts": 131,
+    "texts": 199,
+    "why": "under 400 texts in an era"
+   },
+   {
+    "value": "Treasury",
+    "label": "Treasury",
+    "before_texts": 50,
+    "texts": 161,
+    "why": "under 400 texts in an era"
+   }
+  ]
+ },
+ "submitter": {
+  "rows": [
+   {
+    "value": "individual",
+    "label": "Individuals",
+    "before_texts": 1726,
+    "texts": 2672,
+    "clusters": 72,
+    "before_flagged": 0.0301,
+    "flagged_share": 0.2223,
+    "flagged_lo": 0.1457,
+    "flagged_hi": 0.3063,
+    "baseline": 0.0301,
+    "baseline_own": true,
+    "corrected": 0.2056,
+    "corrected_raw": 0.2056,
+    "corrected_lo": 0.1214,
+    "corrected_hi": 0.2999,
+    "meets_bar": true
+   }
+  ],
+  "count": 1,
+  "limits": [
+   {
+    "value": "organization",
+    "label": "Organizations",
+    "before_texts": 153,
+    "texts": 62,
+    "why": "under 400 texts in an era"
+   }
+  ],
+  "diffs": [],
+  "top": {
+   "value": "individual",
+   "label": "Individuals",
+   "before_texts": 1726,
+   "texts": 2672,
+   "clusters": 72,
+   "before_flagged": 0.0301,
+   "flagged_share": 0.2223,
+   "flagged_lo": 0.1457,
+   "flagged_hi": 0.3063,
+   "baseline": 0.0301,
+   "baseline_own": true,
+   "corrected": 0.2056,
+   "corrected_raw": 0.2056,
+   "corrected_lo": 0.1214,
+   "corrected_hi": 0.2999,
+   "meets_bar": true
+  },
+  "bottom": {
+   "value": "individual",
+   "label": "Individuals",
+   "before_texts": 1726,
+   "texts": 2672,
+   "clusters": 72,
+   "before_flagged": 0.0301,
+   "flagged_share": 0.2223,
+   "flagged_lo": 0.1457,
+   "flagged_hi": 0.3063,
+   "baseline": 0.0301,
+   "baseline_own": true,
+   "corrected": 0.2056,
+   "corrected_raw": 0.2056,
+   "corrected_lo": 0.1214,
+   "corrected_hi": 0.2999,
+   "meets_bar": true
+  }
+ },
+ "length": {
+  "rows": [
+   {
+    "value": "150 to 249 words",
+    "label": "150 to 249 words",
+    "before_texts": 802,
+    "texts": 1272,
+    "clusters": 67,
+    "before_flagged": 0.0337,
+    "flagged_share": 0.1588,
+    "flagged_lo": 0.0867,
+    "flagged_hi": 0.2595,
+    "baseline": 0.0337,
+    "baseline_own": true,
+    "corrected": 0.1344,
+    "corrected_raw": 0.1344,
+    "corrected_lo": 0.0568,
+    "corrected_hi": 0.242,
+    "meets_bar": true
+   },
+   {
+    "value": "250 words or more",
+    "label": "250 words or more",
+    "before_texts": 1077,
+    "texts": 1462,
+    "clusters": 70,
+    "before_flagged": 0.0353,
+    "flagged_share": 0.2866,
+    "flagged_lo": 0.1863,
+    "flagged_hi": 0.4088,
+    "baseline": 0.0353,
+    "baseline_own": true,
+    "corrected": 0.2703,
+    "corrected_raw": 0.2703,
+    "corrected_lo": 0.1598,
+    "corrected_hi": 0.3995,
+    "meets_bar": true
+   }
+  ],
+  "count": 2,
+  "limits": [],
+  "diffs": [
+   {
+    "a": "150 to 249 words",
+    "b": "250 words or more",
+    "diff": -0.1359,
+    "diff_lo": -0.2666,
+    "diff_hi": -0.0245,
+    "ranges_apart": false,
+    "clear": true
+   }
+  ],
+  "top": {
+   "value": "150 to 249 words",
+   "label": "150 to 249 words",
+   "before_texts": 802,
+   "texts": 1272,
+   "clusters": 67,
+   "before_flagged": 0.0337,
+   "flagged_share": 0.1588,
+   "flagged_lo": 0.0867,
+   "flagged_hi": 0.2595,
+   "baseline": 0.0337,
+   "baseline_own": true,
+   "corrected": 0.1344,
+   "corrected_raw": 0.1344,
+   "corrected_lo": 0.0568,
+   "corrected_hi": 0.242,
+   "meets_bar": true
+  },
+  "bottom": {
+   "value": "250 words or more",
+   "label": "250 words or more",
+   "before_texts": 1077,
+   "texts": 1462,
+   "clusters": 70,
+   "before_flagged": 0.0353,
+   "flagged_share": 0.2866,
+   "flagged_lo": 0.1863,
+   "flagged_hi": 0.4088,
+   "baseline": 0.0353,
+   "baseline_own": true,
+   "corrected": 0.2703,
+   "corrected_raw": 0.2703,
+   "corrected_lo": 0.1598,
+   "corrected_hi": 0.3995,
+   "meets_bar": true
+  },
+  "top_vs_bottom": {
+   "a": "150 to 249 words",
+   "b": "250 words or more",
+   "diff": -0.1359,
+   "diff_lo": -0.2666,
+   "diff_hi": -0.0245,
+   "ranges_apart": false,
+   "clear": true
+  },
+  "top_clear": false,
+  "bottom_clear": false
+ },
+ "form_letters": {
+  "rows": [
+   {
+    "value": "unique",
+    "label": "Standalone comments",
+    "before_texts": 674,
+    "texts": 1155,
+    "clusters": 69,
+    "before_flagged": 0.0682,
+    "flagged_share": 0.3619,
+    "flagged_lo": 0.2488,
+    "flagged_hi": 0.4785,
+    "baseline": 0.0682,
+    "baseline_own": true,
+    "corrected": 0.3275,
+    "corrected_raw": 0.3275,
+    "corrected_lo": 0.1925,
+    "corrected_hi": 0.4586,
+    "meets_bar": true
+   },
+   {
+    "value": "copies",
+    "label": "Campaign copies",
+    "before_texts": 1205,
+    "texts": 1579,
+    "clusters": 52,
+    "before_flagged": 0.0158,
+    "flagged_share": 0.1286,
+    "flagged_lo": 0.0601,
+    "flagged_hi": 0.2104,
+    "baseline": 0.0158,
+    "baseline_own": true,
+    "corrected": 0.1188,
+    "corrected_raw": 0.1188,
+    "corrected_lo": 0.0449,
+    "corrected_hi": 0.2043,
+    "meets_bar": true
+   }
+  ],
+  "count": 2,
+  "limits": [],
+  "diffs": [
+   {
+    "a": "unique",
+    "b": "copies",
+    "diff": 0.2087,
+    "diff_lo": 0.0627,
+    "diff_hi": 0.3639,
+    "ranges_apart": false,
+    "clear": true
+   }
+  ],
+  "top": {
+   "value": "unique",
+   "label": "Standalone comments",
+   "before_texts": 674,
+   "texts": 1155,
+   "clusters": 69,
+   "before_flagged": 0.0682,
+   "flagged_share": 0.3619,
+   "flagged_lo": 0.2488,
+   "flagged_hi": 0.4785,
+   "baseline": 0.0682,
+   "baseline_own": true,
+   "corrected": 0.3275,
+   "corrected_raw": 0.3275,
+   "corrected_lo": 0.1925,
+   "corrected_hi": 0.4586,
+   "meets_bar": true
+  },
+  "bottom": {
+   "value": "copies",
+   "label": "Campaign copies",
+   "before_texts": 1205,
+   "texts": 1579,
+   "clusters": 52,
+   "before_flagged": 0.0158,
+   "flagged_share": 0.1286,
+   "flagged_lo": 0.0601,
+   "flagged_hi": 0.2104,
+   "baseline": 0.0158,
+   "baseline_own": true,
+   "corrected": 0.1188,
+   "corrected_raw": 0.1188,
+   "corrected_lo": 0.0449,
+   "corrected_hi": 0.2043,
+   "meets_bar": true
+  },
+  "top_vs_bottom": {
+   "a": "unique",
+   "b": "copies",
+   "diff": 0.2087,
+   "diff_lo": 0.0627,
+   "diff_hi": 0.3639,
+   "ranges_apart": false,
+   "clear": true
+  },
+  "top_clear": true,
+  "bottom_clear": true,
+  "share_copies_before": 0.6413,
+  "share_copies_after": 0.5775
+ },
+ "dockets": {
+  "before": {
+   "dockets": 51,
+   "comments": 1879,
+   "flagged": 65,
+   "any_flagged": 25,
+   "any_flagged_share": 0.4902,
+   "any_lo": 0.3586,
+   "any_hi": 0.6232,
+   "excess": 7,
+   "excess_share": 0.1373,
+   "excess_lo": 0.0681,
+   "excess_hi": 0.2572,
+   "half_of_flagged_in": 6,
+   "over_half": 3,
+   "dist": [
+    {
+     "n": 6,
+     "flagged_share": 0.5,
+     "excess": true
+    },
+    {
+     "n": 4,
+     "flagged_share": 0.5,
+     "excess": true
+    },
+    {
+     "n": 2,
+     "flagged_share": 0.5,
+     "excess": false
+    },
+    {
+     "n": 11,
+     "flagged_share": 0.3636,
+     "excess": true
+    },
+    {
+     "n": 9,
+     "flagged_share": 0.3333,
+     "excess": true
+    },
+    {
+     "n": 16,
+     "flagged_share": 0.3125,
+     "excess": true
+    },
+    {
+     "n": 37,
+     "flagged_share": 0.2162,
+     "excess": true
+    },
+    {
+     "n": 25,
+     "flagged_share": 0.16,
+     "excess": false
+    },
+    {
+     "n": 14,
+     "flagged_share": 0.1429,
+     "excess": false
+    },
+    {
+     "n": 48,
+     "flagged_share": 0.125,
+     "excess": true
+    },
+    {
+     "n": 42,
+     "flagged_share": 0.119,
+     "excess": false
+    },
+    {
+     "n": 9,
+     "flagged_share": 0.1111,
+     "excess": false
+    },
+    {
+     "n": 10,
+     "flagged_share": 0.1,
+     "excess": false
+    },
+    {
+     "n": 65,
+     "flagged_share": 0.0769,
+     "excess": false
+    },
+    {
+     "n": 26,
+     "flagged_share": 0.0769,
+     "excess": false
+    },
+    {
+     "n": 28,
+     "flagged_share": 0.0714,
+     "excess": false
+    },
+    {
+     "n": 17,
+     "flagged_share": 0.0588,
+     "excess": false
+    },
+    {
+     "n": 18,
+     "flagged_share": 0.0556,
+     "excess": false
+    },
+    {
+     "n": 52,
+     "flagged_share": 0.0385,
+     "excess": false
+    },
+    {
+     "n": 53,
+     "flagged_share": 0.0377,
+     "excess": false
+    },
+    {
+     "n": 29,
+     "flagged_share": 0.0345,
+     "excess": false
+    },
+    {
+     "n": 31,
+     "flagged_share": 0.0323,
+     "excess": false
+    },
+    {
+     "n": 42,
+     "flagged_share": 0.0238,
+     "excess": false
+    },
+    {
+     "n": 45,
+     "flagged_share": 0.0222,
+     "excess": false
+    },
+    {
+     "n": 63,
+     "flagged_share": 0.0159,
+     "excess": false
+    },
+    {
+     "n": 28,
+     "flagged_share": 0.0,
+     "excess": false
+    },
+    {
+     "n": 13,
+     "flagged_share": 0.0,
+     "excess": false
+    },
+    {
+     "n": 8,
+     "flagged_share": 0.0,
+     "excess": false
+    },
+    {
+     "n": 13,
+     "flagged_share": 0.0,
+     "excess": false
+    },
+    {
+     "n": 64,
+     "flagged_share": 0.0,
+     "excess": false
+    },
+    {
+     "n": 7,
+     "flagged_share": 0.0,
+     "excess": false
+    },
+    {
+     "n": 90,
+     "flagged_share": 0.0,
+     "excess": false
+    },
+    {
+     "n": 92,
+     "flagged_share": 0.0,
+     "excess": false
+    },
+    {
+     "n": 63,
+     "flagged_share": 0.0,
+     "excess": false
+    },
+    {
+     "n": 58,
+     "flagged_share": 0.0,
+     "excess": false
+    },
+    {
+     "n": 28,
+     "flagged_share": 0.0,
+     "excess": false
+    },
+    {
+     "n": 16,
+     "flagged_share": 0.0,
+     "excess": false
+    },
+    {
+     "n": 97,
+     "flagged_share": 0.0,
+     "excess": false
+    },
+    {
+     "n": 41,
+     "flagged_share": 0.0,
+     "excess": false
+    },
+    {
+     "n": 24,
+     "flagged_share": 0.0,
+     "excess": false
+    },
+    {
+     "n": 3,
+     "flagged_share": 0.0,
+     "excess": false
+    },
+    {
+     "n": 11,
+     "flagged_share": 0.0,
+     "excess": false
+    },
+    {
+     "n": 2,
+     "flagged_share": 0.0,
+     "excess": false
+    },
+    {
+     "n": 100,
+     "flagged_share": 0.0,
+     "excess": false
+    },
+    {
+     "n": 34,
+     "flagged_share": 0.0,
+     "excess": false
+    },
+    {
+     "n": 98,
+     "flagged_share": 0.0,
+     "excess": false
+    },
+    {
+     "n": 69,
+     "flagged_share": 0.0,
+     "excess": false
+    },
+    {
+     "n": 58,
+     "flagged_share": 0.0,
+     "excess": false
+    },
+    {
+     "n": 79,
+     "flagged_share": 0.0,
+     "excess": false
+    },
+    {
+     "n": 79,
+     "flagged_share": 0.0,
+     "excess": false
+    },
+    {
+     "n": 2,
+     "flagged_share": 0.0,
+     "excess": false
+    }
+   ]
+  },
+  "after": {
+   "dockets": 72,
+   "comments": 2734,
+   "flagged": 621,
+   "any_flagged": 54,
+   "any_flagged_share": 0.75,
+   "any_lo": 0.6391,
+   "any_hi": 0.8356,
+   "excess": 31,
+   "excess_share": 0.4306,
+   "excess_lo": 0.3226,
+   "excess_hi": 0.5456,
+   "half_of_flagged_in": 7,
+   "over_half": 10,
+   "dist": [
+    {
+     "n": 1,
+     "flagged_share": 1.0,
+     "excess": false
+    },
+    {
+     "n": 100,
+     "flagged_share": 0.98,
+     "excess": true
+    },
+    {
+     "n": 52,
+     "flagged_share": 0.8654,
+     "excess": true
+    },
+    {
+     "n": 44,
+     "flagged_share": 0.75,
+     "excess": true
+    },
+    {
+     "n": 21,
+     "flagged_share": 0.619,
+     "excess": true
+    },
+    {
+     "n": 47,
+     "flagged_share": 0.5745,
+     "excess": true
+    },
+    {
+     "n": 95,
+     "flagged_share": 0.5474,
+     "excess": true
+    },
+    {
+     "n": 24,
+     "flagged_share": 0.5417,
+     "excess": true
+    },
+    {
+     "n": 47,
+     "flagged_share": 0.5319,
+     "excess": true
+    },
+    {
+     "n": 51,
+     "flagged_share": 0.5098,
+     "excess": true
+    },
+    {
+     "n": 15,
+     "flagged_share": 0.4667,
+     "excess": true
+    },
+    {
+     "n": 37,
+     "flagged_share": 0.4595,
+     "excess": true
+    },
+    {
+     "n": 9,
+     "flagged_share": 0.4444,
+     "excess": true
+    },
+    {
+     "n": 39,
+     "flagged_share": 0.4359,
+     "excess": true
+    },
+    {
+     "n": 14,
+     "flagged_share": 0.4286,
+     "excess": true
+    },
+    {
+     "n": 19,
+     "flagged_share": 0.4211,
+     "excess": true
+    },
+    {
+     "n": 51,
+     "flagged_share": 0.4118,
+     "excess": true
+    },
+    {
+     "n": 40,
+     "flagged_share": 0.4,
+     "excess": true
+    },
+    {
+     "n": 92,
+     "flagged_share": 0.3804,
+     "excess": true
+    },
+    {
+     "n": 55,
+     "flagged_share": 0.3636,
+     "excess": true
+    },
+    {
+     "n": 17,
+     "flagged_share": 0.3529,
+     "excess": true
+    },
+    {
+     "n": 34,
+     "flagged_share": 0.3235,
+     "excess": true
+    },
+    {
+     "n": 22,
+     "flagged_share": 0.3182,
+     "excess": true
+    },
+    {
+     "n": 14,
+     "flagged_share": 0.2857,
+     "excess": true
+    },
+    {
+     "n": 32,
+     "flagged_share": 0.2812,
+     "excess": true
+    },
+    {
+     "n": 19,
+     "flagged_share": 0.2632,
+     "excess": true
+    },
+    {
+     "n": 16,
+     "flagged_share": 0.25,
+     "excess": true
+    },
+    {
+     "n": 92,
+     "flagged_share": 0.25,
+     "excess": true
+    },
+    {
+     "n": 31,
+     "flagged_share": 0.2258,
+     "excess": true
+    },
+    {
+     "n": 9,
+     "flagged_share": 0.2222,
+     "excess": false
+    },
+    {
+     "n": 67,
+     "flagged_share": 0.1642,
+     "excess": true
+    },
+    {
+     "n": 7,
+     "flagged_share": 0.1429,
+     "excess": false
+    },
+    {
+     "n": 23,
+     "flagged_share": 0.1304,
+     "excess": false
+    },
+    {
+     "n": 48,
+     "flagged_share": 0.125,
+     "excess": true
+    },
+    {
+     "n": 36,
+     "flagged_share": 0.1111,
+     "excess": false
+    },
+    {
+     "n": 63,
+     "flagged_share": 0.1111,
+     "excess": true
+    },
+    {
+     "n": 20,
+     "flagged_share": 0.1,
+     "excess": false
+    },
+    {
+     "n": 10,
+     "flagged_share": 0.1,
+     "excess": false
+    },
+    {
+     "n": 11,
+     "flagged_share": 0.0909,
+     "excess": false
+    },
+    {
+     "n": 12,
+     "flagged_share": 0.0833,
+     "excess": false
+    },
+    {
+     "n": 27,
+     "flagged_share": 0.0741,
+     "excess": false
+    },
+    {
+     "n": 41,
+     "flagged_share": 0.0732,
+     "excess": false
+    },
+    {
+     "n": 30,
+     "flagged_share": 0.0667,
+     "excess": false
+    },
+    {
+     "n": 15,
+     "flagged_share": 0.0667,
+     "excess": false
+    },
+    {
+     "n": 17,
+     "flagged_share": 0.0588,
+     "excess": false
+    },
+    {
+     "n": 57,
+     "flagged_share": 0.0526,
+     "excess": false
+    },
+    {
+     "n": 33,
+     "flagged_share": 0.0303,
+     "excess": false
+    },
+    {
+     "n": 67,
+     "flagged_share": 0.0299,
+     "excess": false
+    },
+    {
+     "n": 70,
+     "flagged_share": 0.0286,
+     "excess": false
+    },
+    {
+     "n": 37,
+     "flagged_share": 0.027,
+     "excess": false
+    },
+    {
+     "n": 46,
+     "flagged_share": 0.0217,
+     "excess": false
+    },
+    {
+     "n": 50,
+     "flagged_share": 0.02,
+     "excess": false
+    },
+    {
+     "n": 66,
+     "flagged_share": 0.0152,
+     "excess": false
+    },
+    {
+     "n": 74,
+     "flagged_share": 0.0135,
+     "excess": false
+    },
+    {
+     "n": 67,
+     "flagged_share": 0.0,
+     "excess": false
+    },
+    {
+     "n": 20,
+     "flagged_share": 0.0,
+     "excess": false
+    },
+    {
+     "n": 68,
+     "flagged_share": 0.0,
+     "excess": false
+    },
+    {
+     "n": 14,
+     "flagged_share": 0.0,
+     "excess": false
+    },
+    {
+     "n": 51,
+     "flagged_share": 0.0,
+     "excess": false
+    },
+    {
+     "n": 8,
+     "flagged_share": 0.0,
+     "excess": false
+    },
+    {
+     "n": 16,
+     "flagged_share": 0.0,
+     "excess": false
+    },
+    {
+     "n": 18,
+     "flagged_share": 0.0,
+     "excess": false
+    },
+    {
+     "n": 99,
+     "flagged_share": 0.0,
+     "excess": false
+    },
+    {
+     "n": 29,
+     "flagged_share": 0.0,
+     "excess": false
+    },
+    {
+     "n": 81,
+     "flagged_share": 0.0,
+     "excess": false
+    },
+    {
+     "n": 33,
+     "flagged_share": 0.0,
+     "excess": false
+    },
+    {
+     "n": 92,
+     "flagged_share": 0.0,
+     "excess": false
+    },
+    {
+     "n": 52,
+     "flagged_share": 0.0,
+     "excess": false
+    },
+    {
+     "n": 4,
+     "flagged_share": 0.0,
+     "excess": false
+    },
+    {
+     "n": 11,
+     "flagged_share": 0.0,
+     "excess": false
+    },
+    {
+     "n": 3,
+     "flagged_share": 0.0,
+     "excess": false
+    },
+    {
+     "n": 2,
+     "flagged_share": 0.0,
+     "excess": false
+    }
+   ]
+  },
+  "excess_clear": true,
+  "any_clear": true,
+  "without_top": {
+   "dropped_comments": 100,
+   "dropped_flagged": 98,
+   "texts": 2634,
+   "corrected": 0.1762,
+   "corrected_lo": 0.1101,
+   "corrected_hi": 0.2466
+  },
+  "rule": "'unusually many flagged comments': a flagged count that would happen by chance less than 1 time in 100 at the story's flag rate before 30 Nov 2022 (binomial)",
+  "baseline": 0.0346
+ },
+ "words": {
+  "words_before": 577640,
+  "words_after": 815371,
+  "tracked": 47,
+  "measurable": 5,
+  "rose_count": 2,
+  "fell_count": 0,
+  "rose": [
+   {
+    "term": "furthermore",
+    "before_count": 21,
+    "after_count": 187,
+    "before_clusters": 13,
+    "before_texts": 20,
+    "after_texts": 184,
+    "before_per_million": 36.3548,
+    "after_per_million": 229.3435,
+    "change_per_million": 192.9886,
+    "measurable": true,
+    "multiplier": 6.3085,
+    "multiplier_lo": 2.3816,
+    "multiplier_hi": 19.1312,
+    "rose": true,
+    "fell": false,
+    "multiplier_stable": false
+   },
+   {
+    "term": "crucial",
+    "before_count": 36,
+    "after_count": 190,
+    "before_clusters": 14,
+    "before_texts": 34,
+    "after_texts": 176,
+    "before_per_million": 62.3226,
+    "after_per_million": 233.0228,
+    "change_per_million": 170.7002,
+    "measurable": true,
+    "multiplier": 3.739,
+    "multiplier_lo": 1.2343,
+    "multiplier_hi": 11.5932,
+    "rose": true,
+    "fell": false,
+    "multiplier_stable": false
+   }
+  ],
+  "not_measurable": [
+   "delve",
+   "tapestry",
+   "seamless",
+   "elevate",
+   "unlock",
+   "landscape",
+   "navigate",
+   "robust",
+   "leverage",
+   "fast-paced",
+   "important to note",
+   "whether you're",
+   "game-changer",
+   "embark",
+   "testament",
+   "realm",
+   "thrilled",
+   "excited to announce",
+   "pivotal",
+   "underscore",
+   "showcase",
+   "streamline",
+   "empower",
+   "transformative",
+   "cutting-edge",
+   "comprehensive",
+   "vibrant",
+   "meticulous",
+   "holistic",
+   "ever-evolving",
+   "moreover",
+   "harness",
+   "intricate",
+   "paramount",
+   "multifaceted",
+   "bolster",
+   "spearhead",
+   "resonate",
+   "innovative",
+   "in conclusion",
+   "emphasize",
+   "redefine"
+  ],
+  "terms": [
+   {
+    "term": "crucial",
+    "before_count": 36,
+    "after_count": 190,
+    "before_clusters": 14,
+    "before_texts": 34,
+    "after_texts": 176,
+    "before_per_million": 62.3226,
+    "after_per_million": 233.0228,
+    "change_per_million": 170.7002,
+    "measurable": true,
+    "multiplier": 3.739,
+    "multiplier_lo": 1.2343,
+    "multiplier_hi": 11.5932,
+    "rose": true,
+    "fell": false,
+    "multiplier_stable": false
+   },
+   {
+    "term": "furthermore",
+    "before_count": 21,
+    "after_count": 187,
+    "before_clusters": 13,
+    "before_texts": 20,
+    "after_texts": 184,
+    "before_per_million": 36.3548,
+    "after_per_million": 229.3435,
+    "change_per_million": 192.9886,
+    "measurable": true,
+    "multiplier": 6.3085,
+    "multiplier_lo": 2.3816,
+    "multiplier_hi": 19.1312,
+    "rose": true,
+    "fell": false,
+    "multiplier_stable": false
+   },
+   {
+    "term": "additionally",
+    "before_count": 172,
+    "after_count": 115,
+    "before_clusters": 22,
+    "before_texts": 169,
+    "after_texts": 95,
+    "before_per_million": 297.7633,
+    "after_per_million": 141.0401,
+    "change_per_million": -156.7232,
+    "measurable": true,
+    "multiplier": 0.4737,
+    "multiplier_lo": 0.1645,
+    "multiplier_hi": 1.534,
+    "rose": false,
+    "fell": false,
+    "multiplier_stable": false
+   },
+   {
+    "term": "enhance",
+    "before_count": 38,
+    "after_count": 61,
+    "before_clusters": 18,
+    "before_texts": 36,
+    "after_texts": 57,
+    "before_per_million": 65.7849,
+    "after_per_million": 74.8126,
+    "change_per_million": 9.0277,
+    "measurable": true,
+    "multiplier": 1.1372,
+    "multiplier_lo": 0.4178,
+    "multiplier_hi": 2.9041,
+    "rose": false,
+    "fell": false,
+    "multiplier_stable": false
+   },
+   {
+    "term": "ensure",
+    "before_count": 1135,
+    "after_count": 1424,
+    "before_clusters": 40,
+    "before_texts": 765,
+    "after_texts": 1019,
+    "before_per_million": 1964.8916,
+    "after_per_million": 1746.4443,
+    "change_per_million": -218.4474,
+    "measurable": true,
+    "multiplier": 0.8888,
+    "multiplier_lo": 0.5621,
+    "multiplier_hi": 1.4772,
+    "rose": false,
+    "fell": false,
+    "multiplier_stable": false
+   }
+  ],
+  "rule": "known chatbot words only; measurable with 20+ uses before 30 Nov 2022 over 10+ clusters; rose = 95% cluster-bootstrap range of the after/before ratio above 1; the multiplier is shown only when that range's ends are within a factor of 2"
+ },
+ "exploratory": [
+  "form_letters",
+  "length",
+  "dockets",
+  "words"
+ ],
+ "limits": [
+  "Single agencies and single rules are never shown; no department reaches 400 comments in both periods.",
+  "Comments from organizations: too few before {cutoff} to stand alone.",
+  "Immigration and other topics: too few before {cutoff} to stand alone.",
+  "Comments of 500 words or more: too few to stand alone, so they join 250 words or more."
+ ],
+ "built_at": "2026-11-12T01:30:46Z",
+ "detector_sha256": "d9a6d4dad434ea65ccf608ff34586696467784e82d57d66ea7114825e3ea8a03",
+ "cutoff": "2022-11-30",
+ "bar": 400,
+ "made_by": "studies/score/export_deep_b.py",
+ "sources": [
+  {
+   "file": "record_map.jsonl.gz",
+   "sha256": "b52dc0b01ba182bc77a73b872ddab235f9917388957716dc8daaec4ff5157390"
+  },
+  {
+   "file": "runs/full-detd9a6d4dad434-texts1fdb4527d9ce/scores.jsonl.gz",
+   "sha256": "629856e64e6f52281c25cd63cce005415655488d1fb0199c1da5183bbc005a60"
+  },
+  {
+   "file": "results/index.json",
+   "sha256": "d3005fa9708af20ce7db4892127975743a0366555e9424f7d0748186a89d0775"
+  }
+ ]
+}

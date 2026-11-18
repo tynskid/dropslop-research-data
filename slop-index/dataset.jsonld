@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Dataset",
+  "name": "The Slop Index: how much of the new web is written by AI",
+  "description": "Nearly two in five new English web pages are now written by AI. Snapshot by snapshot from 2019 to 2026, by page type, site size and domain ending.",
+  "url": "https://dropslop.ai/research/slop-index.html",
+  "creator": {
+    "@type": "Organization",
+    "name": "DropSlop",
+    "url": "https://dropslop.ai/"
+  },
+  "isAccessibleForFree": true,
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "distribution": [
+    {
+      "@type": "DataDownload",
+      "encodingFormat": "text/csv",
+      "contentUrl": "https://dropslop.ai/research/data/s01-deep.csv"
+    },
+    {
+      "@type": "DataDownload",
+      "encodingFormat": "application/json",
+      "contentUrl": "https://dropslop.ai/research/data/s01-deep.json"
+    }
+  ],
+  "dateModified": "2026-11-12T01:26:53Z"
+}

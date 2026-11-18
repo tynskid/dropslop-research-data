@@ -1,0 +1,37 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Dataset",
+  "name": "About one in seven press releases from Congress are now written by AI",
+  "description": "About one in seven press releases from members of Congress in 2026 are written by AI, up from almost none in 2023. House against Senate, the member's quote, newer members and the words that rose.",
+  "url": "https://dropslop.ai/research/congress.html",
+  "creator": {
+    "@type": "Organization",
+    "name": "DropSlop",
+    "url": "https://dropslop.ai/"
+  },
+  "isAccessibleForFree": true,
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "distribution": [
+    {
+      "@type": "DataDownload",
+      "encodingFormat": "text/csv",
+      "contentUrl": "https://dropslop.ai/research/data/s21.csv"
+    },
+    {
+      "@type": "DataDownload",
+      "encodingFormat": "application/json",
+      "contentUrl": "https://dropslop.ai/research/data/s21.json"
+    },
+    {
+      "@type": "DataDownload",
+      "encodingFormat": "text/csv",
+      "contentUrl": "https://dropslop.ai/research/data/s21-deep.csv"
+    },
+    {
+      "@type": "DataDownload",
+      "encodingFormat": "application/json",
+      "contentUrl": "https://dropslop.ai/research/data/s21-deep.json"
+    }
+  ],
+  "dateModified": "2026-11-12T01:39:53Z"
+}

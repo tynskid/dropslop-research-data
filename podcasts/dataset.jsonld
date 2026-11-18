@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Dataset",
+  "name": "About one in six podcast episode notes (150+ words) from 2026 are written by AI",
+  "description": "How many podcast episode notes are written by AI: by year, by category, and for new shows against established ones.",
+  "url": "https://dropslop.ai/research/podcasts.html",
+  "creator": {
+    "@type": "Organization",
+    "name": "DropSlop",
+    "url": "https://dropslop.ai/"
+  },
+  "isAccessibleForFree": true,
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "distribution": [
+    {
+      "@type": "DataDownload",
+      "encodingFormat": "text/csv",
+      "contentUrl": "https://dropslop.ai/research/data/s18-deep.csv"
+    },
+    {
+      "@type": "DataDownload",
+      "encodingFormat": "application/json",
+      "contentUrl": "https://dropslop.ai/research/data/s18-deep.json"
+    }
+  ],
+  "dateModified": "2026-11-12T01:32:56Z"
+}

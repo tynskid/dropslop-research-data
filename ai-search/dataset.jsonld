@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Dataset",
+  "name": "AI search cites AI-written pages",
+  "description": "About two in five of the pages AI search cites that were published in 2026 are written by AI. By year, topic, rank and rewrites, measured against archived 2022 copies of the same pages.",
+  "url": "https://dropslop.ai/research/ai-search.html",
+  "creator": {
+    "@type": "Organization",
+    "name": "DropSlop",
+    "url": "https://dropslop.ai/"
+  },
+  "isAccessibleForFree": true,
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "distribution": [
+    {
+      "@type": "DataDownload",
+      "encodingFormat": "text/csv",
+      "contentUrl": "https://dropslop.ai/research/data/ai-search-deep.csv"
+    },
+    {
+      "@type": "DataDownload",
+      "encodingFormat": "application/json",
+      "contentUrl": "https://dropslop.ai/research/data/ai-search-deep.json"
+    }
+  ],
+  "dateModified": "2026-11-12T01:26:53Z"
+}

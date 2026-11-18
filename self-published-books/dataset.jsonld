@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Dataset",
+  "name": "About half of new self-published books now come with an AI-written description",
+  "description": "About half of new self-published books now come with a description written by AI. Traditional publishers: almost none. By year, genre and publisher, with the detector's false alarms taken out.",
+  "url": "https://dropslop.ai/research/self-published-books.html",
+  "creator": {
+    "@type": "Organization",
+    "name": "DropSlop",
+    "url": "https://dropslop.ai/"
+  },
+  "isAccessibleForFree": true,
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "distribution": [
+    {
+      "@type": "DataDownload",
+      "encodingFormat": "text/csv",
+      "contentUrl": "https://dropslop.ai/research/data/s12-deep.csv"
+    },
+    {
+      "@type": "DataDownload",
+      "encodingFormat": "application/json",
+      "contentUrl": "https://dropslop.ai/research/data/s12-deep.json"
+    }
+  ],
+  "dateModified": "2026-11-12T01:26:53Z"
+}

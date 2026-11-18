@@ -1,0 +1,311 @@
+{
+ "story": "s15",
+ "title": "AI-written public comments to federal agencies",
+ "what": "public comments of 150 words or more on federal rules, up to 100 collected per docket",
+ "headline": {
+  "before": {
+   "texts": 1879,
+   "clusters": 51,
+   "flagged_share": 0.0346,
+   "flagged_lo": 0.02,
+   "flagged_hi": 0.0533
+  },
+  "after": {
+   "texts": 2734,
+   "clusters": 72,
+   "flagged_share": 0.2271,
+   "flagged_lo": 0.1525,
+   "flagged_hi": 0.3161,
+   "corrected": 0.2069,
+   "corrected_lo": 0.1246,
+   "corrected_hi": 0.3039
+  },
+  "dockets": 117
+ },
+ "baseline": {
+  "share": 0.0346,
+  "lo": 0.0206,
+  "hi": 0.0553,
+  "texts": 1879,
+  "from": "comments posted before 30 Nov 2022"
+ },
+ "catch_rate": {
+  "share": 0.965,
+  "lo": 0.9381,
+  "hi": 0.9861,
+  "n": 200,
+  "from": "AI-written public comments made for this study"
+ },
+ "year_pairs": [
+  {
+   "value": "2018-19",
+   "label": "2018–19",
+   "before_texts": 497,
+   "after_texts": 0,
+   "era": "before",
+   "texts": 497,
+   "clusters": 14,
+   "flagged_share": 0.0282,
+   "flagged_lo": 0.0083,
+   "flagged_hi": 0.0631,
+   "baseline": 0.0282,
+   "corrected": 0.0,
+   "corrected_raw": 0.0,
+   "corrected_lo": -0.049,
+   "corrected_hi": 0.041,
+   "baseline_own": true
+  },
+  {
+   "value": "2020-21",
+   "label": "2020–21",
+   "before_texts": 1045,
+   "after_texts": 0,
+   "era": "before",
+   "texts": 1045,
+   "clusters": 30,
+   "flagged_share": 0.0354,
+   "flagged_lo": 0.0156,
+   "flagged_hi": 0.0631,
+   "baseline": 0.0354,
+   "corrected": 0.0,
+   "corrected_raw": 0.0,
+   "corrected_lo": -0.0387,
+   "corrected_hi": 0.0347,
+   "baseline_own": true
+  },
+  {
+   "value": "2022-23",
+   "label": "2022–23",
+   "before_texts": 337,
+   "after_texts": 619,
+   "era": "mixed",
+   "texts": 956,
+   "clusters": 36,
+   "flagged_share": 0.0513,
+   "flagged_lo": 0.022,
+   "flagged_hi": 0.0929,
+   "baseline": 0.0346,
+   "corrected": 0.0179,
+   "corrected_raw": 0.0179,
+   "corrected_lo": -0.0231,
+   "corrected_hi": 0.0663,
+   "baseline_own": false
+  },
+  {
+   "value": "2024-25",
+   "label": "2024–25",
+   "before_texts": 0,
+   "after_texts": 998,
+   "era": "after",
+   "texts": 998,
+   "clusters": 32,
+   "flagged_share": 0.1954,
+   "flagged_lo": 0.1031,
+   "flagged_hi": 0.299,
+   "baseline": 0.0346,
+   "corrected": 0.1728,
+   "corrected_raw": 0.1728,
+   "corrected_lo": 0.0708,
+   "corrected_hi": 0.285,
+   "baseline_own": false
+  },
+  {
+   "value": "2026",
+   "label": "2026",
+   "before_texts": 0,
+   "after_texts": 1117,
+   "era": "after",
+   "texts": 1117,
+   "clusters": 29,
+   "flagged_share": 0.35,
+   "flagged_lo": 0.1997,
+   "flagged_hi": 0.5147,
+   "baseline": 0.0346,
+   "corrected": 0.339,
+   "corrected_raw": 0.339,
+   "corrected_lo": 0.1724,
+   "corrected_hi": 0.5253,
+   "baseline_own": false
+  }
+ ],
+ "year_latest": {
+  "value": "2026",
+  "label": "2026",
+  "before_texts": 0,
+  "after_texts": 1117,
+  "era": "after",
+  "texts": 1117,
+  "clusters": 29,
+  "flagged_share": 0.35,
+  "flagged_lo": 0.1997,
+  "flagged_hi": 0.5147,
+  "baseline": 0.0346,
+  "corrected": 0.339,
+  "corrected_raw": 0.339,
+  "corrected_lo": 0.1724,
+  "corrected_hi": 0.5253,
+  "baseline_own": false
+ },
+ "topics": [
+  {
+   "value": "health and education",
+   "label": "Health and education",
+   "before_texts": 568,
+   "published": true,
+   "before_flagged": 0.0264,
+   "texts": 665,
+   "clusters": 17,
+   "flagged_share": 0.2707,
+   "flagged_lo": 0.0774,
+   "flagged_hi": 0.528,
+   "baseline": 0.0264,
+   "corrected": 0.2602,
+   "corrected_raw": 0.2602,
+   "corrected_lo": 0.0515,
+   "corrected_hi": 0.5259,
+   "baseline_own": true
+  },
+  {
+   "value": "economy and work",
+   "label": "Economy and work",
+   "before_texts": 532,
+   "published": true,
+   "before_flagged": 0.0414,
+   "texts": 836,
+   "clusters": 25,
+   "flagged_share": 0.2667,
+   "flagged_lo": 0.1532,
+   "flagged_hi": 0.3849,
+   "baseline": 0.0414,
+   "corrected": 0.244,
+   "corrected_raw": 0.244,
+   "corrected_lo": 0.1121,
+   "corrected_hi": 0.3718,
+   "baseline_own": true
+  },
+  {
+   "value": "environment",
+   "label": "Environment",
+   "before_texts": 400,
+   "published": true,
+   "before_flagged": 0.015,
+   "texts": 662,
+   "clusters": 15,
+   "flagged_share": 0.0906,
+   "flagged_lo": 0.0228,
+   "flagged_hi": 0.1762,
+   "baseline": 0.015,
+   "corrected": 0.0796,
+   "corrected_raw": 0.0796,
+   "corrected_lo": -0.0043,
+   "corrected_hi": 0.1707,
+   "baseline_own": true
+  }
+ ],
+ "topics_top": {
+  "value": "health and education",
+  "label": "Health and education",
+  "before_texts": 568,
+  "published": true,
+  "before_flagged": 0.0264,
+  "texts": 665,
+  "clusters": 17,
+  "flagged_share": 0.2707,
+  "flagged_lo": 0.0774,
+  "flagged_hi": 0.528,
+  "baseline": 0.0264,
+  "corrected": 0.2602,
+  "corrected_raw": 0.2602,
+  "corrected_lo": 0.0515,
+  "corrected_hi": 0.5259,
+  "baseline_own": true
+ },
+ "topics_bottom": {
+  "value": "environment",
+  "label": "Environment",
+  "before_texts": 400,
+  "published": true,
+  "before_flagged": 0.015,
+  "texts": 662,
+  "clusters": 15,
+  "flagged_share": 0.0906,
+  "flagged_lo": 0.0228,
+  "flagged_hi": 0.1762,
+  "baseline": 0.015,
+  "corrected": 0.0796,
+  "corrected_raw": 0.0796,
+  "corrected_lo": -0.0043,
+  "corrected_hi": 0.1707,
+  "baseline_own": true
+ },
+ "topic_limits": [
+  {
+   "value": "immigration and other",
+   "label": "Immigration and other topics",
+   "before_texts": 379,
+   "texts": 571,
+   "published": false
+  }
+ ],
+ "notes": [
+  "Intervals resample whole dockets, so a few dockets with many AI-written comments widen them.",
+  "Agencies appear only pooled; no single agency, docket or commenter is shown."
+ ],
+ "built_at": "2026-11-12T01:39:53Z",
+ "detector_sha256": "d9a6d4dad434ea65ccf608ff34586696467784e82d57d66ea7114825e3ea8a03",
+ "cutoff": "2022-11-30",
+ "sources": [
+  {
+   "file": "results/index.json",
+   "sha256": "d3005fa9708af20ce7db4892127975743a0366555e9424f7d0748186a89d0775"
+  },
+  {
+   "file": "_views/s07.json (outside git)",
+   "sha256": "53dcdf7c536f9b201449514eb6cb3e93264f443f42012f5b91f62ed123f08384"
+  },
+  {
+   "file": "_views/s11.json (outside git)",
+   "sha256": "7bf5f8bf13cf2bbcac90a0a623ffa322d13b5bbf3b6e13efd5ec07458e7d9e58"
+  },
+  {
+   "file": "_views/s19.json (outside git)",
+   "sha256": "e2337e95b78f5e89d9e604877c8f101a071da1bacaddd01a719b409489ba1f7a"
+  },
+  {
+   "file": "record_map.jsonl.gz",
+   "sha256": "b52dc0b01ba182bc77a73b872ddab235f9917388957716dc8daaec4ff5157390"
+  },
+  {
+   "file": "results/s02/cells.csv",
+   "sha256": "59585be08785e830db663d49fc44990b67084dcaf3f258402fff25be63f9a694"
+  },
+  {
+   "file": "results/s07/summary.json",
+   "sha256": "902bcdb87fcbe8ee915dd6db19d4651e80f68e43f79ca494118751242263a8ef"
+  },
+  {
+   "file": "results/s10/cells.csv",
+   "sha256": "92c09951cda10e7a278e2e2be018bff129e2fb32dd0007db2d4714d6f376c7b0"
+  },
+  {
+   "file": "results/s15/cells.csv",
+   "sha256": "ff6831d38cb5670984fdc4a7361b20e9c22bfe46c4e418c176592eee3a48d42f"
+  },
+  {
+   "file": "results/s15/summary.json",
+   "sha256": "f651f870913f9929a1684600c0f6450cb18b48178904645a59f0a1e822536700"
+  },
+  {
+   "file": "results/s19/summary.json",
+   "sha256": "bed57eb7bc86fe6a3aa5fe14bc6852eeb393b3b56d9d1e0862875fa62eeb317a"
+  },
+  {
+   "file": "runs/full-detd9a6d4dad434-texts1fdb4527d9ce/scores.jsonl.gz",
+   "sha256": "629856e64e6f52281c25cd63cce005415655488d1fb0199c1da5183bbc005a60"
+  },
+  {
+   "file": "results/s15/summary.json",
+   "sha256": "f651f870913f9929a1684600c0f6450cb18b48178904645a59f0a1e822536700"
+  }
+ ]
+}
